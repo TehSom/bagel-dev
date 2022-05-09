@@ -10,13 +10,21 @@ Some software you may want to download:
 
 VisualStudio Code: https://code.visualstudio.com
 Recommended Extensions (can be downloaded within VSCode)
+
   -Babel ES6/ES7 
+  
   -Babel Javascript 
+  
   -ES7 React/Redux/GraphQL/REact Native snippets 
+  
   -Node Extension Pack
+  
   -GitHub Repositories
+  
   -Heroku
+  
   -Heroku CLI
+  
   -GitLens-Git supercharged
 
 You will need Node installed, you can get a Node Version Manager (https://github.com/coreybutler/nvm-windows) to take care of this.
