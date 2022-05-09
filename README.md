@@ -35,6 +35,12 @@ The site runs on this:
 Node Version: 18.x
 React version: 18.x
 
+If you get some vulnerability warnings while running pnpx create-react-app, just ignore them. It won't affect the site being run. 
+
+W3C Tutorials on React: https://www.w3schools.com/react/default.asp
+
+Also, I don't always use the React.DOM model for everything. There's also the functional approach, which is how modern React is shifting. You can't always use it, like for React State-based Components, but writing JSX/React like a JavaScript function may seem more familiar.
+
 ## Available Scripts
 
 In the project directory, you can run:
