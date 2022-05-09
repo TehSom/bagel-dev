@@ -2,7 +2,7 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-### !!READ FIRST!!!
+### !!!READ FIRST!!!
 
 This was packaged using pnpm, a faster node package manager: https://pnpm.io
 
