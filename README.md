@@ -43,6 +43,8 @@ Also, I don't always use the React.DOM model for everything. There's also the fu
 
 A lot of this code is not commented, either. Files have been given purpose-driven names as well as the functions. There isn't really a lot of need for them. If you want to add comments to your own code or comment mine, feel free.
 
+#### DO NOT USE `var`. USE 'const' OR `let`
+
 ## Available Scripts
 
 In the project directory, you can run:
