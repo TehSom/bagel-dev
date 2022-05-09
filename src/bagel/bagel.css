@@ -1,0 +1,148 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+a {
+    color:rgb(127, 213, 247);
+    text-decoration: none;
+}
+
+.bagel-Container {
+    background-color: rgb(39, 39, 39);
+    position: absolute;
+    width: calc(100vw);
+    height: calc(100vh);
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.bagel-Navbar {
+    width: 100%;
+    height: 53px;    
+    border-bottom: solid;
+    border-width: 1px;
+    border-color:rgba(77, 76, 76, 0.801);
+    font-family: "Jupiter Pro Regular";
+    z-index: 10;
+    position: fixed;
+    padding-left: 15px;
+    background-color: rgb(39, 39, 39);
+}
+
+h1.bagel-Navbar {
+}
+
+.bagel-Gradient {
+    background-image: linear-gradient(rgb(235, 211, 175), rgb(141, 98, 62), rgb(235, 211, 175));
+    background-clip: text;
+    color: transparent;
+}
+
+.bagel-Navimg {
+}
+
+.bagel-Body {
+    z-index: 1;
+    background-image: url("./bagelhouse-min.png");
+    background-size: cover;
+    display: flex;
+    height: 100%;
+    width: 100%;
+}
+
+.bagel-Row-1 {
+    color: #FFF;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.bagel-Table:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.bagel-Table {
+    margin-top: 53px;
+    margin-right: 15px;
+    margin-left: 15px;
+    z-index: 6;
+}
+
+.bagel-Col-1, .bagel-Col-2 {
+    background-color:rgba(37, 37, 37, 0.801);
+    border-style: solid;
+    border-width: 1px;
+    border-color:rgba(77, 76, 76, 0.801);
+    border-radius: 2px;
+}
+
+.bagel-Col-1 {
+    margin-top: 10px;
+    margin-left:5px;
+    float: left;
+    padding: 15px;
+    width: 300px;
+    height: auto;
+}
+
+.bagel-Sublinks {
+    font-size: .8em;
+    padding-left: 30px;
+}
+
+.bagel-Col-2 {
+    position: absolute;
+    margin-left: 350px;
+    margin-right: 50%;
+    margin-top: 10px;
+    min-width: 964px;
+    width: 50%;
+    max-width: 1276px;
+    height: auto;
+    padding: 15px;
+}
+
+.bagel-Footer {
+    position: fixed;
+    bottom: 0px;
+    z-index: 2;
+    height: 150px;
+    width: 100%;
+    background: linear-gradient(rgba(255,255,255,0), rgba(0,0,0,1));
+}
+
+.bagel-Poweredbyreact {
+    padding-top: 100px;
+    padding-left: 25px;
+    width: 250px;
+    height: 30px;
+    color: #FFF;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.bagel-Reactlogo {
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+}
+
+@font-face {
+    font-family: "Jupiter Pro Regular";
+    src: url("./fonts/webkit-jupiterpro/jupiter_pro_regular-webfont.woff") format ("woff");
+    src: url("./fonts/webkit-jupiterpro/jupiter_pro_regular-webfont.woff2") format("woff2");
+}
+
+@media (prefers-reduced-motion: no-preference) {
+    .bagel-Reactlogo {
+      animation: App-logo-spin infinite 20s linear;
+    }
+}
+
+@keyframes bagel-Reactlogo {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }

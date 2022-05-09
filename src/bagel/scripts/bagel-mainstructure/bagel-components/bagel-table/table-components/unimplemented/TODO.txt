@@ -1,0 +1,67 @@
+TODOs:
+
+1. Make Navigation [function links() in BagelLinks.js]
+correspond to output in Column 2 [bagelCol2.js]
+
+Prototyping so far produces this schema (these are not working functions):
+
+Utilizing React Component States
+
+
+This will go in Row 1, Column 1
+
+const renderValue = x 
+
+function finalRender() {
+    return (
+        <button onClick = will change renderValue to desired x value>
+            Link Label (News for example)
+        </button>
+    );
+};
+
+export default finalRender;
+
+This will go in Column 2
+
+function readFinalRender() {
+    return(
+        { finalRender() }
+    );
+};
+
+2. Do Discord API integration for necessary channels for Discord -> Site
+auto-push.
+
+This will allow, for example, the Schedule to auto-update whenever Elias
+posts the weekly schedule to Discord.
+
+3. Do Static-specific pages along with some other flair for theme
+
+These will not have major Discord API hookups. Instead they will show
+Tier Progress, List Static Members (will include Lodestone data. Adventurer Plates
+are unavailable for pull--sorry!).
+
+4. Refactor the site for compatibility for all browsers, and different
+viewing modes.
+
+Planned breakpoints are (breakpoints as in, what minimum width the screen needs
+to be to swap to this mode):
+
+Ultra: 2560px; -in testing
+High Resolution: 1920px -in testing
+Standard Desktop: 13660px -in testing
+Laptop/Tablet: 768px;
+Mobile: 360px;
+
+All three desktop resolutions can be tested easily since my monitors match all three.
+
+5. Get the site out of the Som-Dev Container.
+
+This is self-explanatory and will require some CSS work.
+
+Work on getting the actual domain name implemented.
+
+6. Work on a very "special project".
+
+
