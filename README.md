@@ -1,10 +1,10 @@
 # Getting Started with Create React App
 
-(to do this command in pnpm it's pnpx create-react-app project-name)
-
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-### !!!READ FIRST!!!
+(to do this command in pnpm it's pnpx create-react-app project-name)
+
+## !!!READ FIRST!!!
 
 This was packaged using pnpm, a faster node package manager: https://pnpm.io
 
