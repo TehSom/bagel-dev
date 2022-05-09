@@ -41,6 +41,8 @@ W3C Tutorials on React: https://www.w3schools.com/react/default.asp
 
 Also, I don't always use the React.DOM model for everything. There's also the functional approach, which is how modern React is shifting. You can't always use it, like for React State-based Components, but writing JSX/React like a JavaScript function may seem more familiar.
 
+A lot of this code is not commented, either. Files have been given purpose-driven names as well as the functions. There isn't really a lot of need for them. If you want to add comments to your own code or comment mine, feel free.
+
 ## Available Scripts
 
 In the project directory, you can run:
