@@ -45,6 +45,8 @@ A lot of this code is not commented, either. Files have been given purpose-drive
 
 #### DO NOT USE `var`. USE `const` OR `let`
 
+This is why: https://www.programiz.com/javascript/let-vs-var
+
 ## Available Scripts
 
 In the project directory, you can run:
