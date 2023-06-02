@@ -1,7 +1,5 @@
-import bagelRow1 from "./bagel-table/bagelRow1";
-import bagelRow2 from "./bagel-table/bagelRow2";
-import links from "./table-components/bagelLinks";
-import discordWidget from "./table-components/discordwidget";
+import links from "./bagel-table/table-components/bagelLinks";
+import discordWidget from "./bagel-table/table-components/discordwidget";
 
 
 /* sidebar links and placeholder */
@@ -47,7 +45,6 @@ function bagelRow2() {
     );
 };
 
-export default bagelRow2
 /* Bagel Discord Widget */
 function bagelCol1Row2() {
     return (
